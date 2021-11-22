@@ -9,8 +9,8 @@ import pandas
 import os, subprocess
 import sys
 
-time = '00:59:00' #Run time
-memory = '500M' #Memory per core required, this is NOT shared between jobs
+time = '00:29:00' #Run time
+memory = '100M' #Memory per core required, this is NOT shared between jobs
 
 
 #Load Onose data
