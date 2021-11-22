@@ -65,14 +65,14 @@ def main():
     
         H = 5+1e-13
         T32 = T5[j]
-        print('Executing for H=0')
+        print('Executing for H=5')
 #        execute(T32,H,read = False)
     
     for j in range(len(T9)):
     
         H = 9+1e-13
         T32 = T9[j]
-        print('Executing for H=0')
+        print('Executing for H=9')
 #        execute(T32,H,read = False)
         
 if __name__ == "__main__":
