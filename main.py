@@ -40,8 +40,8 @@ print('Heat capacity integral converged with error: {}'.format(res[1]))
 print('Writing to file....')
 
 with open(filename, "a") as file:
-    for t_val in tbd:
-        file.write("{} {}\n".format(T32,H,res[0],res[1]))
+    
+    file.write("{} {} {} {}\n".format(T32,H,res[0],res[1]))
         
 print('Successfully written to file.')
     

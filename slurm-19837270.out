@@ -1,8 +1,0 @@
-Calculating heat capacity for T^3/2=4.751958225 and H=1e-13
-Running
-Heat capacity integral converged with error: 1.4896229918481751e-08
-Writing to file....
-Traceback (most recent call last):
-  File "main.py", line 43, in <module>
-    for t_val in tbd:
-NameError: name 'tbd' is not defined
