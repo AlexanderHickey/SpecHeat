@@ -31,7 +31,7 @@ preamble = ["#!/bin/bash\n",
             "\n",
             "module load scipy-stack\n"]
 
-def execute(T32,H,read = False)
+def execute(T32,H,read = False):
 
     
     #Generate shell file
